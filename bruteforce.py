@@ -12,7 +12,6 @@ args = parser.parse_args()
 start = time.time()
 file = args.file
 words = args.words
-attemptCount = 0
 end = 0
 years = list(range(1990, 2001))
 specials = ["@", "_", "!", "#", "$", "%", "^", "&", "*",
